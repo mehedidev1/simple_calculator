@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css link start  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- css link end  -->
+</head>
+<body>
+
+    <div class="header text-center">
+        <h2>General calculator</h2>
+    </div>
+    <div class="calculator">
+        <form action="" name="form">
+            <input type="text"  value="" class="form-control main-bar" name="display" id="display_input" placeholder="0">
+            <div class="button_area">
+                <div class="level">
+                    <input type="button" name="btn" value="7" class="btn bg-light" onclick="calculator(this.value)" id="seven">
+                    <input type="button" name="btn" value="8" class="btn bg-light" onclick="calculator(this.value)" id="eight">
+                    <input type="button" name="btn" value="9" class="btn bg-light" onclick="calculator(this.value)" id="nine">
+                    <input type="button" name="btn" value="*" class="btn bg-light" onclick="calculator(this.value)" id="into">
+                </div>
+                <div class="level">
+                    <input type="button" name="btn" value="4" class="btn bg-light" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="5" class="btn bg-light" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="6" class="btn bg-light" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="-" class="btn bg-light" onclick="calculator(this.value)">
+                </div>
+                <div class="level">
+                    <input type="button" name="btn" value="1" class="btn bg-light" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="2" class="btn bg-light" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="3" class="btn bg-light" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="+" class="btn bg-light " onclick="calculator(this.value)">
+                </div>
+                <div class="level">
+                    <input type="button" name="btn" value="0" class="btn bg-light" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="00" class="btn bg-light" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="." class="btn bg-light" onclick="calculator(this.value)">
+                    <input type="button" name="btn" value="/" class="btn bg-light" onclick="calculator(this.value)">
+                   
+                </div>
+                <div class="last_class">
+                    <input type="button" name="btn" value="C" class="btn bg-danger botn_color" onclick="display.value=null">
+                    <input type="button" name="btn" value="=" class="btn bg-danger botn_color" onclick="display.value=eval(display.value)">
+                </div>
+                
+            </div>
+        </form>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- java script link start  -->
+    <script src="javascript/bootstrap.bundle.min.js"></script>
+    <script src="javascript/custome.js"></script>
+    <!-- java script link end  -->
+    
+</body>
+</html>

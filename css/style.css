@@ -1,0 +1,56 @@
+
+
+
+
+.header{
+    margin-top: 30px;
+}
+.header h2{
+    font-size: 53px;
+    font-weight: bold;
+    
+
+
+}
+
+.calculator {
+	height: 360px;
+	width: 300px;
+	background-color: #FFABE1;
+	margin: 0 auto;
+	margin-top: 40px;
+	border: 1px solid #777;
+	padding: 20px;
+    border-radius: 10px;
+}
+.plus_bton{
+    background-color: aqua;
+}
+.main-bar{
+    margin-bottom: 20px;
+    text-align: right;
+    background-color: #BAD1C2;
+
+}
+.botn_color{
+    color: #fff;
+}
+.btn{
+    font-size: 20px;
+    width: 60px;
+    cursor: pointer;
+
+}
+
+.level{
+    margin-bottom: 10px;
+}
+.last_class input{
+    width: 126px;
+    
+
+}
+#display_input{
+    font-size: 20px;
+    font-weight: bold;
+}
